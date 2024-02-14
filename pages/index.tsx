@@ -3,7 +3,6 @@ import { AnyEVMSection } from "../components/homepage/sections/AnyEVM";
 import { Box, Center, DarkMode, Flex } from "@chakra-ui/react";
 import { HomepageFooter } from "components/footer/Footer";
 import { GetStartedSection } from "components/homepage/sections/GetStartedSection";
-import { HeroSection } from "components/homepage/sections/HeroSection";
 import { NewsletterSection } from "components/homepage/sections/NewsletterSection";
 import { PricingSection } from "components/homepage/sections/PricingSection";
 import { SDKSection } from "components/homepage/sections/SDKSection";
@@ -19,6 +18,8 @@ import { ThirdwebNextPage } from "utils/types";
 import { PRODUCTS, metrics } from "components/product-pages/common/nav/data";
 import { Heading, Text } from "tw-components";
 import LandingCardWithMetrics from "components/landing-pages/card-with-metrics";
+import Interactive from "components/homepage/Interactive/Interactive";
+import { HeroSection } from "components/homepage/sections/HeroSection";
 
 const TRACKING_CATEGORY = "homepage";
 
@@ -45,8 +46,9 @@ const HomePage: ThirdwebNextPage = () => {
       >
         <HomepageTopNav />
         <Box mt="-80px" pt="100px" overflowX="hidden">
-          <HeroSection />
+          <HeroSection TRACKING_CATEGORY={TRACKING_CATEGORY} />
           <PartnerCarousel />
+          <Interactive TRACKING_CATEGORY={TRACKING_CATEGORY} />
           <StatsSection />
           <HomePageCard
             title="Onboard everyone to web3, instantly"
