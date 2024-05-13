@@ -201,7 +201,7 @@ dependencies:
     version: 5.13.0(@types/react@18.2.73)(react-dom@18.2.0)(react@18.2.0)
   thirdweb:
     specifier: 5.6.0
-    version: 5.6.0(@types/react-dom@18.2.25)(@types/react@18.2.73)(ethers@5.7.2)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.3)(zod@3.22.4)
+    version: 5.6.0(@types/react-dom@18.2.25)(@types/react@18.2.73)(ethers@5.7.2)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.3)(zod@3.23.8)
   tiny-invariant:
     specifier: ^1.3.3
     version: 1.3.3
@@ -210,7 +210,7 @@ dependencies:
     version: 5.7.0(ethers@5.7.2)
   zod:
     specifier: ^3.19.1
-    version: 3.22.4
+    version: 3.23.8
 
 devDependencies:
   '@chakra-ui/cli':
@@ -2102,12 +2102,12 @@ packages:
       viem: ^2.7.0
     dependencies:
       '@tanstack/react-query': 4.36.1(react-dom@18.2.0)(react@18.2.0)
-      '@xmtp/frames-validator': 0.5.2(typescript@5.4.3)(zod@3.22.4)
+      '@xmtp/frames-validator': 0.5.2(typescript@5.4.3)(zod@3.23.8)
       graphql: 16.8.1
       graphql-request: 6.1.0(graphql@16.8.1)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      viem: 2.9.20(typescript@5.4.3)(zod@3.22.4)
+      viem: 2.9.20(typescript@5.4.3)(zod@3.23.8)
     dev: false
 
   /@coinbase/wallet-sdk@3.7.2:
@@ -6518,10 +6518,10 @@ packages:
       cookie: 0.6.0
       ethers: 5.7.2
       fastify: 4.26.2
-      fastify-type-provider-zod: 1.1.9(fastify@4.26.2)(zod@3.22.4)
+      fastify-type-provider-zod: 1.1.9(fastify@4.26.2)(zod@3.23.8)
       next: 14.1.4(@babel/core@7.23.9)(react-dom@18.2.0)(react@18.2.0)
       uuid: 9.0.1
-      zod: 3.22.4
+      zod: 3.23.8
     transitivePeerDependencies:
       - '@aws-sdk/client-secrets-manager'
       - '@azure/app-configuration'
@@ -6784,20 +6784,20 @@ packages:
       '@thirdweb-dev/generated-abis': 0.0.1
       '@thirdweb-dev/merkletree': 0.2.5
       '@thirdweb-dev/storage': 2.0.14
-      abitype: 1.0.0(typescript@5.4.3)(zod@3.22.4)
+      abitype: 1.0.0(typescript@5.4.3)(zod@3.23.8)
       bn.js: 5.2.1
       bs58: 5.0.0
       buffer: 6.0.3
       ethers: 5.7.2
       eventemitter3: 5.0.1
       fast-deep-equal: 3.1.3
-      thirdweb: 0.0.0-dev-38469bc3760145bd2a8a2aace1b65771bda476f9-20240411051025(@types/react-dom@18.2.25)(@types/react@18.2.73)(ethers@5.7.2)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.3)(zod@3.22.4)
+      thirdweb: 0.0.0-dev-38469bc3760145bd2a8a2aace1b65771bda476f9-20240411051025(@types/react-dom@18.2.25)(@types/react@18.2.73)(ethers@5.7.2)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.3)(zod@3.23.8)
       tiny-invariant: 1.3.3
       tweetnacl: 1.0.3
       uuid: 9.0.1
       yaml: 2.4.1
       zksync-ethers: 5.7.0(ethers@5.7.2)
-      zod: 3.22.4
+      zod: 3.23.8
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -6826,7 +6826,7 @@ packages:
     resolution: {integrity: sha512-TBZpB/bhg9ICKk147o+2TBllLgIlFG+pXsK5ncRLupY/xfGUTE4P2P2QiSnNq8kYWsvoF2dKN8nntKqopoTPkg==}
     dependencies:
       aws4fetch: 1.0.18
-      zod: 3.22.4
+      zod: 3.23.8
     dev: false
 
   /@thirdweb-dev/storage@2.0.14:
@@ -8226,14 +8226,14 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@xmtp/frames-validator@0.5.2(typescript@5.4.3)(zod@3.22.4):
+  /@xmtp/frames-validator@0.5.2(typescript@5.4.3)(zod@3.23.8):
     resolution: {integrity: sha512-m62HoAs47Dz3MHpW1Ec9fdmnvK9GJYyPJl6mWifKblWmoA4s67zAuTF3V8qXv8hEUag6t1XBRF6BpfeKDva4HQ==}
     engines: {node: '>=18'}
     dependencies:
       '@noble/curves': 1.4.0
       '@noble/hashes': 1.4.0
       '@xmtp/proto': 3.45.0
-      viem: 2.9.20(typescript@5.4.3)(zod@3.22.4)
+      viem: 2.9.20(typescript@5.4.3)(zod@3.23.8)
     transitivePeerDependencies:
       - bufferutil
       - typescript
@@ -8288,7 +8288,7 @@ packages:
       through: 2.3.8
     dev: false
 
-  /abitype@1.0.0(typescript@5.4.3)(zod@3.22.4):
+  /abitype@1.0.0(typescript@5.4.3)(zod@3.23.8):
     resolution: {integrity: sha512-NMeMah//6bJ56H5XRj8QCV4AwuW6hB6zqz2LnhhLdcWVQOsXki6/Pn3APeqxCma62nXIcmZWdu1DlHWS74umVQ==}
     peerDependencies:
       typescript: '>=5.0.4'
@@ -8300,7 +8300,7 @@ packages:
         optional: true
     dependencies:
       typescript: 5.4.3
-      zod: 3.22.4
+      zod: 3.23.8
     dev: false
 
   /abort-controller@3.0.0:
@@ -11536,15 +11536,15 @@ packages:
     resolution: {integrity: sha512-stRHYGeuqpEZTL1Ef0Ovr2ltazUT9g844X5z/zEBFLG8RYlpDiOCIG+ATvYEp+/zmc7sN29mcIMp8gvYplYPIQ==}
     dev: false
 
-  /fastify-type-provider-zod@1.1.9(fastify@4.26.2)(zod@3.22.4):
+  /fastify-type-provider-zod@1.1.9(fastify@4.26.2)(zod@3.23.8):
     resolution: {integrity: sha512-Ztnu1ZWJEKJouZvdTyfgjuVqS+A4JLoCbWBvFqFhfnrg6YQvEvW+5cJvP98kNbuV5gjfpWmHSOTi3BpkidJPQg==}
     peerDependencies:
       fastify: ^4.0.0
       zod: ^3.19.1
     dependencies:
       fastify: 4.26.2
-      zod: 3.22.4
-      zod-to-json-schema: 3.22.4(zod@3.22.4)
+      zod: 3.23.8
+      zod-to-json-schema: 3.22.4(zod@3.23.8)
     dev: false
 
   /fastify@4.26.2:
@@ -13416,8 +13416,8 @@ packages:
       strip-json-comments: 5.0.1
       summary: 2.1.0
       typescript: 5.4.3
-      zod: 3.22.4
-      zod-validation-error: 3.0.3(zod@3.22.4)
+      zod: 3.23.8
+      zod-validation-error: 3.0.3(zod@3.23.8)
     transitivePeerDependencies:
       - bluebird
       - domexception
@@ -17876,7 +17876,7 @@ packages:
       any-promise: 1.3.0
     dev: true
 
-  /thirdweb@0.0.0-dev-38469bc3760145bd2a8a2aace1b65771bda476f9-20240411051025(@types/react-dom@18.2.25)(@types/react@18.2.73)(ethers@5.7.2)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.3)(zod@3.22.4):
+  /thirdweb@0.0.0-dev-38469bc3760145bd2a8a2aace1b65771bda476f9-20240411051025(@types/react-dom@18.2.25)(@types/react@18.2.73)(ethers@5.7.2)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.3)(zod@3.23.8):
     resolution: {integrity: sha512-YZddIpnRFvwtziZMKGUTgy0u2LoWgEkf/VTZfdfR9bhvnDx1XW9ryi74MvYkPmhexv/Q1Tx3Oiu2CHyuHRWpAw==}
     engines: {node: '>=18'}
     hasBin: true
@@ -17904,7 +17904,7 @@ packages:
       '@radix-ui/react-tooltip': 1.0.7(@types/react-dom@18.2.25)(@types/react@18.2.73)(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-query': 5.29.0(react@18.2.0)
       '@walletconnect/ethereum-provider': 2.12.1(@types/react@18.2.73)(react@18.2.0)
-      abitype: 1.0.0(typescript@5.4.3)(zod@3.22.4)
+      abitype: 1.0.0(typescript@5.4.3)(zod@3.23.8)
       ethers: 5.7.2
       fast-text-encoding: 1.0.6
       fuse.js: 7.0.0
@@ -17913,7 +17913,7 @@ packages:
       react: 18.2.0
       typescript: 5.4.3
       uqr: 0.1.2
-      viem: 2.9.9(typescript@5.4.3)(zod@3.22.4)
+      viem: 2.9.9(typescript@5.4.3)(zod@3.23.8)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -17937,7 +17937,7 @@ packages:
       - zod
     dev: false
 
-  /thirdweb@5.6.0(@types/react-dom@18.2.25)(@types/react@18.2.73)(ethers@5.7.2)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.3)(zod@3.22.4):
+  /thirdweb@5.6.0(@types/react-dom@18.2.25)(@types/react@18.2.73)(ethers@5.7.2)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.3)(zod@3.23.8):
     resolution: {integrity: sha512-OcBJitC4Px0XSSFCyTf8wuTolj9OG5RC6+sPLwGTdTIq7nPkWUQVvrplwiAu3OKzsqAsYo4e8cOcOhUvclGo0w==}
     engines: {node: '>=18'}
     hasBin: true
@@ -17965,7 +17965,7 @@ packages:
       '@radix-ui/react-tooltip': 1.0.7(@types/react-dom@18.2.25)(@types/react@18.2.73)(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-query': 5.29.2(react@18.2.0)
       '@walletconnect/ethereum-provider': 2.12.2(@types/react@18.2.73)(react@18.2.0)
-      abitype: 1.0.0(typescript@5.4.3)(zod@3.22.4)
+      abitype: 1.0.0(typescript@5.4.3)(zod@3.23.8)
       ethers: 5.7.2
       fast-text-encoding: 1.0.6
       fuse.js: 7.0.0
@@ -17974,7 +17974,7 @@ packages:
       react: 18.2.0
       typescript: 5.4.3
       uqr: 0.1.2
-      viem: 2.9.16(typescript@5.4.3)(zod@3.22.4)
+      viem: 2.9.16(typescript@5.4.3)(zod@3.23.8)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -18889,7 +18889,7 @@ packages:
       d3-timer: 3.0.1
     dev: false
 
-  /viem@2.9.16(typescript@5.4.3)(zod@3.22.4):
+  /viem@2.9.16(typescript@5.4.3)(zod@3.23.8):
     resolution: {integrity: sha512-FQRfN4G7uKEUs5DYvVrH/kZmTkwcSDpTBxnadpwG1EEP8nHm57WDpSaGN7PwSPVgJ6rMo5MENT5hgnqaNTlb2w==}
     peerDependencies:
       typescript: '>=5.0.4'
@@ -18902,7 +18902,7 @@ packages:
       '@noble/hashes': 1.3.2
       '@scure/bip32': 1.3.2
       '@scure/bip39': 1.2.1
-      abitype: 1.0.0(typescript@5.4.3)(zod@3.22.4)
+      abitype: 1.0.0(typescript@5.4.3)(zod@3.23.8)
       isows: 1.0.3(ws@8.13.0)
       typescript: 5.4.3
       ws: 8.13.0
@@ -18912,7 +18912,7 @@ packages:
       - zod
     dev: false
 
-  /viem@2.9.20(typescript@5.4.3)(zod@3.22.4):
+  /viem@2.9.20(typescript@5.4.3)(zod@3.23.8):
     resolution: {integrity: sha512-PHb1MrBHMrSZ8Ayuk3Y/6wUTcMbzlACQaM6AJBSv9kRKX3xYSZ/kehi+gvS0swQJeAlTQ4eZM7jsHQJNAOarmg==}
     peerDependencies:
       typescript: '>=5.0.4'
@@ -18925,7 +18925,7 @@ packages:
       '@noble/hashes': 1.3.2
       '@scure/bip32': 1.3.2
       '@scure/bip39': 1.2.1
-      abitype: 1.0.0(typescript@5.4.3)(zod@3.22.4)
+      abitype: 1.0.0(typescript@5.4.3)(zod@3.23.8)
       isows: 1.0.3(ws@8.13.0)
       typescript: 5.4.3
       ws: 8.13.0
@@ -18935,7 +18935,7 @@ packages:
       - zod
     dev: false
 
-  /viem@2.9.9(typescript@5.4.3)(zod@3.22.4):
+  /viem@2.9.9(typescript@5.4.3)(zod@3.23.8):
     resolution: {integrity: sha512-SUIHBL6M5IIlqDCMEQwAAvHzeglaM4FEqM6bCI+srLXtFYmrpV4tWhnpobQRNwh4f7HIksmKLLZ+cytv8FfnJQ==}
     peerDependencies:
       typescript: '>=5.0.4'
@@ -18948,7 +18948,7 @@ packages:
       '@noble/hashes': 1.3.2
       '@scure/bip32': 1.3.2
       '@scure/bip39': 1.2.1
-      abitype: 1.0.0(typescript@5.4.3)(zod@3.22.4)
+      abitype: 1.0.0(typescript@5.4.3)(zod@3.23.8)
       isows: 1.0.3(ws@8.13.0)
       typescript: 5.4.3
       ws: 8.13.0
@@ -19651,25 +19651,25 @@ packages:
       ethers: 5.7.2
     dev: false
 
-  /zod-to-json-schema@3.22.4(zod@3.22.4):
+  /zod-to-json-schema@3.22.4(zod@3.23.8):
     resolution: {integrity: sha512-2Ed5dJ+n/O3cU383xSY28cuVi0BCQhF8nYqWU5paEpl7fVdqdAmiLdqLyfblbNdfOFwFfi/mqU4O1pwc60iBhQ==}
     peerDependencies:
       zod: ^3.19.1
     dependencies:
-      zod: 3.22.4
+      zod: 3.23.8
     dev: false
 
-  /zod-validation-error@3.0.3(zod@3.22.4):
+  /zod-validation-error@3.0.3(zod@3.23.8):
     resolution: {integrity: sha512-cETTrcMq3Ze58vhdR0zD37uJm/694I6mAxcf/ei5bl89cC++fBNxrC2z8lkFze/8hVMPwrbtrwXHR2LB50fpHw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       zod: ^3.19.1
     dependencies:
-      zod: 3.22.4
+      zod: 3.23.8
     dev: true
 
-  /zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+  /zod@3.23.8:
+    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
 
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
